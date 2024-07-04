@@ -1,10 +1,7 @@
-
-
-
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 
-<!-- /index.html   11 Nov 2019 12:16:10 GMT -->
+<!-- belle/index.html   11 Nov 2019 12:16:10 GMT -->
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -21,7 +18,7 @@
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
-<body class="template-index  template-index-">
+<body class="template-index belle template-index-belle">
 <div id="pre-loader">
     <img src="assets/images/loader.gif" alt="Loading..." />
 </div>
@@ -83,10 +80,10 @@
     	<div class="container-fluid">        
             <div class="row align-items-center">
             	<!--Desktop Logo-->
-                <div class="logo col-md-2 col-lg-2 d-none d-lg-block " style="color: #fff;">
+                <div class="logo col-md-2 col-lg-2 d-none d-lg-block " style="color: #000;">
                     <a href="index.html">
-                    	<!-- <img src="assets/images/logo.svg" alt=" Multipurpose Html Template" title=" Multipurpose Html Template" /> -->
-                         <h2 style="color: #fff; text-decoration: none;"><strong>Shoe</strong>Xpress</h2>
+                    	<!-- <img src="assets/images/logo.svg" alt="Belle Multipurpose Html Template" title="Belle Multipurpose Html Template" /> -->
+                         <h2 style="color: #000; text-decoration: none;"><strong>Shoe</strong>Xpress</h2>
                     </a>
                 </div>
                 <!--End Desktop Logo-->
@@ -519,63 +516,74 @@
         </li>
       </ul>
 	</div>
-
+	<!--End Mobile Menu-->
     <!--Body Content-->
     <div id="page-content">
     	<!--Page Title-->
     	<div class="page section-header text-center">
 			<div class="page-title">
-        		<div class="wrapper"><h1 class="page-width">Register</h1></div>
+        		<div class="wrapper mt-5"><h1 class="page-width">Wish List</h1></div>
       		</div>
 		</div>
         <!--End Page Title-->
         
         <div class="container">
         	<div class="row">
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6 main-col offset-md-3">
-                	<div class="mb-4">
-                       <form method="post" action="" id="CustomerLoginForm" accept-charset="UTF-8" class="contact-form">	
-                          <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-12">
-                                <div class="form-group">
-                                    <label for="CustomerEmail">Username</label>
-                                    <input type="text" name="username" placeholder="" id="CustomerEmail" class="" autocorrect="off" autocapitalize="off" autofocus="">
-                                </div>
-                            </div>
-
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-12">
-                                <div class="form-group">
-                                    <label for="CustomerEmail">Phone number</label>
-                                    <input type="tel" name="phone" placeholder="" id="CustomerEmail" class="" autocorrect="off" autocapitalize="off" autofocus="">
-                                </div>
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-12">
-                                <div class="form-group">
-                                    <label for="CustomerEmail">Email</label>
-                                    <input type="email" name="email" placeholder="" id="CustomerEmail" class="" autocorrect="off" autocapitalize="off" autofocus="">
-                                </div>
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-12">
-                                <div class="form-group">
-                                    <label for="CustomerPassword">Password</label>
-                                    <input type="password" value="" name="password" placeholder="" id="CustomerPassword" class="">                        	
-                                </div>
-                            </div>
-                          </div>
-                          <div class="row">
-                            <div class="text-center col-12 col-sm-12 col-md-12 col-lg-12">
-                                <!-- <input type="submit" class="btn mb-3" name="reg" value="Sign up"> -->
-                                 <button type="submit" class="btn mb-3" name="reg" >Sign up</button>
-
-                                <p class="mb-4">
-                                    <!-- <p>This&nbsp;is&nbsp;an&nbsp;example&nbsp;of&nbsp;using&nbsp;non-breaking&nbsp;spaces.</p> -->
-                                <a href="#" id="RecoverPassword">Already have an Account?</a> &nbsp; | &nbsp;
-                                  <a href="login.html" id="customer_register_link">Login</a>
-                                </p>
-                            </div>
-                         </div>
-                     </form>
-                    </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 main-col">
+                	<form action="#">
+                        <div class="wishlist-table table-content table-responsive">
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                    	<th class="product-name text-center alt-font">Remove</th>
+                                        <th class="product-price text-center alt-font">Images</th>
+                                        <th class="product-name alt-font">Product</th>
+                                        <th class="product-price text-center alt-font">Unit Price</th>
+                                        <th class="stock-status text-center alt-font">Stock Status</th>
+                                        <th class="product-subtotal text-center alt-font">Add to Cart</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                    	<td class="product-remove text-center" valign="middle"><a href="#"><i class="icon icon anm anm-times-l"></i></a></td>
+                                        <td class="product-thumbnail text-center">
+                                            <a href="#"><img src="images/men3.3.jpeg" alt="" title="" /></a>
+                                        </td>
+                                        <td class="product-name"><h4 class="no-margin"><a href="#">green/orange</a></h4></td>
+                                        <td class="product-price text-center"><span class="amount">$165.00</span></td>
+                                        <td class="stock text-center">
+                                            <span class="in-stock">in stock</span>
+                                        </td>
+                                        <td class="product-subtotal text-center"><button type="button" class="btn btn-small">Add To Cart</button></td>
+                                    </tr>
+                                    <tr>
+                                    	<td class="product-remove text-center" valign="middle"><a href="#"><i class="icon icon anm anm-times-l"></i></a></td>
+                                        <td class="product-thumbnail text-center">
+                                            <a href="#"><img src="images/men1.4.jpeg" alt="" title="" /></a>
+                                        </td>
+                                        <td class="product-name"><h4 class="no-margin"><a href="#">Sneaker 1</a></h4></td>
+                                        <td class="product-price text-center"><span class="amount">$150.00</span></td>
+                                        <td class="stock text-center">
+                                            <span class="out-stock">Out Of stock</span>
+                                        </td>
+                                        <td class="product-subtotal text-center"><button type="button" class="btn btn-small">Add To Cart</button></td>
+                                    </tr>
+                                    <tr>
+                                    	<td class="product-remove text-center" valign="middle"><a href="#"><i class="icon icon anm anm-times-l"></i></a></td>
+                                        <td class="product-thumbnail text-center">
+                                            <a href="#"><img src="images/men4.3.jpeg" alt="" title="" /></a>
+                                        </td>
+                                        <td class="product-name"><h4 class="no-margin"><a href="#">Sneaker 2</a></h4></td>
+                                        <td class="product-price text-center"><span class="amount">$150.00</span></td>
+                                        <td class="stock text-center">
+                                            <span class="in-stock">in stock</span>
+                                        </td>
+                                        <td class="product-subtotal text-center"><button type="button" class="btn btn-small">Add To Cart</button></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </form>                   
                	</div>
             </div>
         </div>
@@ -709,5 +717,5 @@
 </div>
 </body>
 
-<!-- shoexpress/login.html   11 Nov 2019 12:22:27 GMT -->
+<!-- belle/wishlist.html   11 Nov 2019 12:22:27 GMT -->
 </html>
